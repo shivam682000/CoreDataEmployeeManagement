@@ -16,14 +16,13 @@
 		2A63F3A826EC7A58006BF9FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A63F3A626EC7A58006BF9FC /* LaunchScreen.storyboard */; };
 		2A63F3B326EC7A58006BF9FC /* EmployeeManagementTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A63F3B226EC7A58006BF9FC /* EmployeeManagementTests.swift */; };
 		2A63F3BE26EC7A58006BF9FC /* EmployeeManagementUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A63F3BD26EC7A58006BF9FC /* EmployeeManagementUITests.swift */; };
-		2A63F3CC26EC7B47006BF9FC /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A63F3CB26EC7B47006BF9FC /* Constants.swift */; };
-		2A63F3D026EC7B60006BF9FC /* MyModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A63F3CF26EC7B60006BF9FC /* MyModels.swift */; };
-		2A63F3D226EC7B68006BF9FC /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A63F3D126EC7B68006BF9FC /* TableViewCell.swift */; };
 		2A63F3D526EC82AE006BF9FC /* Employee+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A63F3D326EC82AE006BF9FC /* Employee+CoreDataClass.swift */; };
 		2A63F3DD26EE87BD006BF9FC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A63F3D826EC8317006BF9FC /* CoreData.framework */; };
 		2A63F3E226EE8F81006BF9FC /* Employee+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A63F3E026EE8F81006BF9FC /* Employee+CoreDataProperties.swift */; };
 		2A79673226EF74F700200BAB /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79673126EF74F700200BAB /* Database.swift */; };
 		2A79673426EF75E500200BAB /* AddUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79673326EF75E500200BAB /* AddUserViewController.swift */; };
+		2A79673626EF83C000200BAB /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79673526EF83C000200BAB /* TableViewCell.swift */; };
+		2A79673A26EF847200200BAB /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A79673926EF847200200BAB /* Constants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,15 +58,14 @@
 		2A63F3B926EC7A58006BF9FC /* EmployeeManagementUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EmployeeManagementUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A63F3BD26EC7A58006BF9FC /* EmployeeManagementUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmployeeManagementUITests.swift; sourceTree = "<group>"; };
 		2A63F3BF26EC7A58006BF9FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2A63F3CB26EC7B47006BF9FC /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = ../../EmployeeMangementSystemAssignment/EmployeeMangementSystemAssignment/Constants.swift; sourceTree = "<group>"; };
-		2A63F3CF26EC7B60006BF9FC /* MyModels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MyModels.swift; path = ../../EmployeeMangementSystemAssignment/EmployeeMangementSystemAssignment/MyModels.swift; sourceTree = "<group>"; };
-		2A63F3D126EC7B68006BF9FC /* TableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../../EmployeeMangementSystemAssignment/EmployeeMangementSystemAssignment/TableViewCell.swift; sourceTree = "<group>"; };
 		2A63F3D326EC82AE006BF9FC /* Employee+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Employee+CoreDataClass.swift"; sourceTree = "<group>"; };
 		2A63F3D826EC8317006BF9FC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		2A63F3DE26EE8E56006BF9FC /* EmployeeManagement v2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EmployeeManagement v2.xcdatamodel"; sourceTree = "<group>"; };
 		2A63F3E026EE8F81006BF9FC /* Employee+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = "Employee+CoreDataProperties.swift"; path = "../Employee+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2A79673126EF74F700200BAB /* Database.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Database.swift; sourceTree = "<group>"; };
 		2A79673326EF75E500200BAB /* AddUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddUserViewController.swift; sourceTree = "<group>"; };
+		2A79673526EF83C000200BAB /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		2A79673926EF847200200BAB /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,19 +119,18 @@
 			isa = PBXGroup;
 			children = (
 				2A63F39826EC7A58006BF9FC /* AppDelegate.swift */,
+				2A79673926EF847200200BAB /* Constants.swift */,
+				2A79673526EF83C000200BAB /* TableViewCell.swift */,
 				2A63F3E026EE8F81006BF9FC /* Employee+CoreDataProperties.swift */,
 				2A63F3D326EC82AE006BF9FC /* Employee+CoreDataClass.swift */,
 				2A63F39A26EC7A58006BF9FC /* SceneDelegate.swift */,
 				2A63F39C26EC7A58006BF9FC /* ViewController.swift */,
 				2A63F39E26EC7A58006BF9FC /* Main.storyboard */,
 				2A79673326EF75E500200BAB /* AddUserViewController.swift */,
-				2A63F3CF26EC7B60006BF9FC /* MyModels.swift */,
 				2A63F3A426EC7A58006BF9FC /* Assets.xcassets */,
-				2A63F3D126EC7B68006BF9FC /* TableViewCell.swift */,
 				2A79673126EF74F700200BAB /* Database.swift */,
 				2A63F3A626EC7A58006BF9FC /* LaunchScreen.storyboard */,
 				2A63F3A926EC7A58006BF9FC /* Info.plist */,
-				2A63F3CB26EC7B47006BF9FC /* Constants.swift */,
 				2A63F3A126EC7A58006BF9FC /* EmployeeManagement.xcdatamodeld */,
 			);
 			path = EmployeeManagement;
@@ -296,15 +293,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2A79673426EF75E500200BAB /* AddUserViewController.swift in Sources */,
-				2A63F3CC26EC7B47006BF9FC /* Constants.swift in Sources */,
+				2A79673A26EF847200200BAB /* Constants.swift in Sources */,
 				2A79673226EF74F700200BAB /* Database.swift in Sources */,
 				2A63F3D526EC82AE006BF9FC /* Employee+CoreDataClass.swift in Sources */,
-				2A63F3D226EC7B68006BF9FC /* TableViewCell.swift in Sources */,
 				2A63F3A326EC7A58006BF9FC /* EmployeeManagement.xcdatamodeld in Sources */,
 				2A63F39D26EC7A58006BF9FC /* ViewController.swift in Sources */,
+				2A79673626EF83C000200BAB /* TableViewCell.swift in Sources */,
 				2A63F3E226EE8F81006BF9FC /* Employee+CoreDataProperties.swift in Sources */,
 				2A63F39926EC7A58006BF9FC /* AppDelegate.swift in Sources */,
-				2A63F3D026EC7B60006BF9FC /* MyModels.swift in Sources */,
 				2A63F39B26EC7A58006BF9FC /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
